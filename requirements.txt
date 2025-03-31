@@ -1,0 +1,8 @@
+flask
+PyPDF
+langchain
+langchain-community
+langchain-google-genai
+faiss-cpu
+werkzeug
+sentence-transformers
