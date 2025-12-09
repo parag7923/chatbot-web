@@ -15,7 +15,7 @@ if not os.path.exists(app.config['UPLOAD_FOLDER']):
     os.makedirs(app.config['UPLOAD_FOLDER'])
 
 # Initialize LLM
-llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", api_key="AIzaSyBpZUY9sQrxkPFc64bVlkaO8D-K0s84KlY")
+llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", api_key="")
 
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
